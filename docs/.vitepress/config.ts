@@ -4,6 +4,8 @@ export default defineConfig({
   title: '神力科莎 Wiki',
   description: '神力科莎游戏中文 wiki',
   base: '/',
+  appearance: 'dark',
+  css: ['/style.css'],
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
