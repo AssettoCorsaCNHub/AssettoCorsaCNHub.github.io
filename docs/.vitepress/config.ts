@@ -20,8 +20,22 @@ export default defineConfig({
           text: '新手上路',
           items: [
             { text: '游戏介绍', link: '/newbie/introduction' },
-            { text: '新手知识', link: '/newbie/knowledge' },
-            { text: '新人建议', link: '/newbie/suggestion' },
+            {
+              text: '新手知识',
+              items: [
+                { text: '什么是启动器', link: '/newbie/knowledge/launcher' },
+                { text: '什么是CSP', link: '/newbie/knowledge/csp' },
+                { text: '什么是MOD', link: '/newbie/knowledge/mod' }
+              ]
+            },
+            {
+              text: '入门建议',
+              items: [
+                { text: '驾驶建议', link: '/newbie/suggestion/driving' },
+                { text: '设置建议', link: '/newbie/suggestion/setup' },
+                { text: '社区建议', link: '/newbie/suggestion/community' }
+              ]
+            },
             { text: '推荐MOD', link: '/newbie/mods' },
             { text: '驾驶参数', link: '/newbie/settings' },
             { text: '常见问题', link: '/newbie/faq' }
