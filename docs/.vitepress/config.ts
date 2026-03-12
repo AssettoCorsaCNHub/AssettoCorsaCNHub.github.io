@@ -7,12 +7,19 @@ export default defineConfig({
   appearance: 'dark',
   css: ['/style.css'],
   themeConfig: {
+    logo: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Assetto%20Corsa%20logo%2C%20racing%20game%2C%20simple%20design&image_size=square',
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '新手上路', link: '/newbie/' },
       { text: 'MOD专区', link: '/mod/' },
       { text: '服务器', link: '/server/' },
       { text: '赛事', link: '/event/' }
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/AssettoCorsaCNHub/AssettoCorsaCNHub.github.io' }
     ],
     sidebar: {
       '/newbie/': [
