@@ -5,8 +5,8 @@
 ## 目录
 
 - [游戏介绍](introduction)
-- [新手知识](knowledge)
-- [新人建议](suggestion)
+- [新手知识](knowledge/)
+- [新人建议](suggestion/)
 - [推荐MOD](mods)
 - [驾驶参数](settings)
 - [常见问题](faq)
