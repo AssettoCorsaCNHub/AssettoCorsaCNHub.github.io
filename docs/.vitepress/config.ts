@@ -5,6 +5,11 @@ export default defineConfig({
   description: '神力科莎中国俱乐部 - 赛车模拟器中文社区',
   base: '/',
   appearance: 'dark',
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['link', { rel: 'shortcut icon', href: '/favicon.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/favicon.png' }]
+  ],
   themeConfig: {
     logo: '/logo.png',
     search: {
