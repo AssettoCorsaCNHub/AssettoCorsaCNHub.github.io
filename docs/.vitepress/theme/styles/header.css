@@ -1,9 +1,61 @@
 :root {
-  /* 将导航栏边框变量设为透明或无 */
-  --vp-nav-border-color: transparent;
+  /* 设置导航栏边框颜色 - 亮色模式 */
+  --vp-nav-border-color: var(--vp-border-color, #eaeaea);
+}
+
+/* 暗色模式下的导航栏边框颜色 */
+.dark {
+  --vp-nav-border-color: var(--vp-border-color, #1b1b1f);
 }
 
 /* 强力覆盖（防止某些主题版本下变量失效） */
-.VPNavBar {
+.VPNav {
+  border-bottom: 1px solid var(--vp-c-gutter) !important;
+  position: relative;
+  z-index: 1000;
+}
+
+/* 确保顶部导航栏的 border-bottom 不会断开 */
+.VPNavBar .container {
   border-bottom: none !important;
+}
+
+.VPNavBar .title {
+  border-bottom: none !important;
+}
+
+.VPNavBar .nav {
+  border-bottom: none !important;
+}
+
+/* 确保标题区域的边框显示 */
+.VPNavBarTitle {
+  border-bottom: none !important;
+}
+
+/* 确保整个顶部导航栏的边框完整 */
+.VPNavBar .container > div {
+  border-bottom: none !important;
+}
+
+/* 确保侧边导航栏不会超过顶部导航栏 */
+.VPLayout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.VPContent {
+  flex: 1;
+  display: flex;
+}
+
+.VPSidebar {
+  flex-shrink: 0;
+  margin-top: var(--vp-nav-height);
+  position: sticky;
+  top: var(--vp-nav-height);
+  height: calc(100vh - var(--vp-nav-height));
+  overflow-y: auto;
+  padding-top: 1px;
 }
