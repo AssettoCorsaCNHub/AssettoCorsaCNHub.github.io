@@ -1,13 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: '神力科莎 Wiki',
-  description: '神力科莎游戏中文 wiki',
+  title: 'Assetto Corsa CN Hub',
+  description: '神力科莎中国俱乐部 - 赛车模拟器中文社区',
   base: '/',
   appearance: 'dark',
-  css: ['/style.css'],
   themeConfig: {
-    logo: 'https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Assetto%20Corsa%20logo%2C%20racing%20game%2C%20simple%20design&image_size=square',
+    logo: '/logo.png',
     search: {
       provider: 'local'
     },

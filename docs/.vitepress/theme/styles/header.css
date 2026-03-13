@@ -1,0 +1,9 @@
+:root {
+  /* 将导航栏边框变量设为透明或无 */
+  --vp-nav-border-color: transparent;
+}
+
+/* 强力覆盖（防止某些主题版本下变量失效） */
+.VPNavBar {
+  border-bottom: none !important;
+}
