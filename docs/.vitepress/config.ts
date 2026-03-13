@@ -20,7 +20,9 @@ export default defineConfig({
       { text: '新手上路', link: '/newbie/' },
       { text: 'MOD专区', link: '/mod/' },
       { text: '服务器', link: '/server/' },
-      { text: '赛事', link: '/event/' }
+      { text: '赛事', link: '/event/' },
+      { text: '周边二创', link: '/creative/' },
+      { text: 'ACN社区', link: 'https://wiki.acmods.cn/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AssettoCorsaCNHub/AssettoCorsaCNHub.github.io' }
@@ -77,6 +79,16 @@ export default defineConfig({
           text: '赛事',
           items: [
             { text: '赛事信息', link: '/event/info' }
+          ]
+        }
+      ],
+      '/creative/': [
+        {
+          text: '周边二创',
+          items: [
+            { text: '投稿指南', link: '/creative/guide' },
+            { text: '优秀作品', link: '/creative/works' },
+            { text: '创作者风采', link: '/creative/creators' }
           ]
         }
       ]
