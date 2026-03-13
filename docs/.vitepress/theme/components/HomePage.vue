@@ -32,6 +32,7 @@ import HeroSection from './home/HeroSection.vue'
   color: white;
   font-weight: bold;
   margin-left: calc(-50vw + 50%);
+  margin-top: 120px;
 }
 
 /* 内容容器 */
