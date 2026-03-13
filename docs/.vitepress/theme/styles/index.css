@@ -1,1 +1,47 @@
 @import "./header.css";
+
+/* 首页布局覆盖 - 只影响内容区域，不影响导航栏 */
+.Layout:has(.home-page) .VPContent {
+  max-width: none !important;
+  padding: 0 !important;
+}
+
+.Layout:has(.home-page) .VPPage {
+  max-width: none !important;
+  width: 100% !important;
+  overflow-x: hidden;
+}
+
+.Layout:has(.home-page) .VPDoc {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* 只影响内容区域的 container，不影响导航栏 */
+.Layout:has(.home-page) .VPDoc .container {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.Layout:has(.home-page) .VPDoc .content {
+  max-width: none !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+.Layout:has(.home-page) .home-page {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.Layout:has(.home-page) .vp-doc {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.Layout:has(.home-page) .content-container {
+  max-width: none !important;
+  width: 100% !important;
+}

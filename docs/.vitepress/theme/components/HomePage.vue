@@ -1,0 +1,45 @@
+<template>
+  <div class="home-page">
+    <div class="topsection">1</div>
+    <div class="home-container">
+      <HeroSection />
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import HeroSection from './home/HeroSection.vue'
+</script>
+
+<style>
+/* 顶层容器占满全宽 - 使用 CSS 技巧突破父容器限制 */
+.home-page {
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* 测试区域占满全宽 */
+.topsection {
+  width: 100vw;
+  height: 300px;
+  background: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  margin-left: calc(-50vw + 50%);
+}
+
+/* 内容容器 */
+.home-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem 24px;
+  box-sizing: border-box;
+}
+</style>
