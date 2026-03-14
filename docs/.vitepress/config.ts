@@ -22,7 +22,7 @@ export default defineConfig({
       { text: '服务器', link: '/server/' },
       { text: '赛事', link: '/event/' },
       { text: '优秀创作', link: '/creative/' },
-      { text: 'ACN社区', link: 'https://wiki.acmods.cn/' }
+      { text: 'ACN(友情社区)', link: 'https://wiki.acmods.cn/' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/AssettoCorsaCNHub/AssettoCorsaCNHub.github.io' }

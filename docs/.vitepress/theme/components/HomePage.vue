@@ -1,15 +1,15 @@
 <template>
   <div class="home-page">
-    <div class="home-container">
-      <HeroSection />
-      <CardSection />
-    </div>
+    <HeroSection />
+    <CardSection />
+    <AboutSection />
   </div>
 </template>
 
 <script setup lang="ts">
 import HeroSection from './home/HeroSection.vue'
 import CardSection from './home/CardSection.vue'
+import AboutSection from './home/AboutSection.vue'
 </script>
 
 <style>
@@ -36,10 +36,4 @@ import CardSection from './home/CardSection.vue'
   margin-top: 120px;
 }
 
-/* 内容容器 */
-.home-container {
-  width: 100%;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
 </style>
