@@ -21,7 +21,7 @@ export default defineConfig({
       { text: 'MOD专区', link: '/mod/' },
       { text: '服务器', link: '/server/' },
       { text: '赛事', link: '/event/' },
-      { text: '周边二创', link: '/creative/' },
+      { text: '优秀创作', link: '/creative/' },
       { text: 'ACN社区', link: 'https://wiki.acmods.cn/' }
     ],
     socialLinks: [
