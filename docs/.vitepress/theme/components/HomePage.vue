@@ -1,6 +1,5 @@
 <template>
   <div class="home-page">
-    <div class="topsection">1</div>
     <div class="home-container">
       <HeroSection />
     </div>
@@ -38,9 +37,7 @@ import HeroSection from './home/HeroSection.vue'
 /* 内容容器 */
 .home-container {
   width: 100%;
-  max-width: 1440px;
   margin: 0 auto;
-  padding: 2rem 24px;
   box-sizing: border-box;
 }
 </style>
