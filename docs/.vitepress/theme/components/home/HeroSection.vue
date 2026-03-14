@@ -10,6 +10,7 @@
 
 <style scoped>
 .hero {
+  max-width: 1920px;
   position: relative;
   background-image: url('/home-1.jpg');
   background-size: cover;
@@ -42,7 +43,7 @@
   z-index: 2;
   text-align: left;
   color: white;
-  max-width: 1400px;
+  max-width: 1440px;
   width: 100%;
   padding: 0 20px;
 }

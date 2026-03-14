@@ -2,12 +2,14 @@
   <div class="home-page">
     <div class="home-container">
       <HeroSection />
+      <CardSection />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import HeroSection from './home/HeroSection.vue'
+import CardSection from './home/CardSection.vue'
 </script>
 
 <style>
