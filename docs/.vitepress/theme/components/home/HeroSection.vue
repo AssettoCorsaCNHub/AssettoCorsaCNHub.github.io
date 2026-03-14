@@ -80,4 +80,104 @@
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 
+/* 平板设备适配 (768px以下) */
+@media (max-width: 960px) {
+  .hero {
+    width: calc(100% - 40px);
+    margin: 20px;
+    margin-top: 55px;
+    border-radius: 10px;
+  }
+}
+
+/* 平板设备适配 (768px以下) */
+@media (max-width: 768px) {
+  .hero {
+    width: calc(100% - 40px);
+    margin: 20px;
+    margin-top: 80px;
+    border-radius: 10px;
+  }
+
+  .hero-content {
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .btn-primary {
+    padding: 10px 24px;
+    font-size: 0.9rem;
+  }
+}
+
+/* 手机设备适配 (480px以下) */
+@media (max-width: 480px) {
+  .hero {
+    width: calc(100% - 30px);
+    margin: 15px;
+    margin-top: 60px;
+    border-radius: 8px;
+  }
+
+  .hero-content {
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+
+  .hero-content h2 {
+    font-size: 0.85rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+
+  .btn-primary {
+    padding: 8px 20px;
+    font-size: 0.85rem;
+    border-radius: 8px;
+  }
+}
+
+/* 小屏手机适配 (360px以下) */
+@media (max-width: 360px) {
+  .hero {
+    width: calc(100% - 20px);
+    margin: 10px;
+    margin-top: 30px;
+    min-height: 300px;
+    border-radius: 6px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .hero-content h2 {
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn-primary {
+    padding: 6px 16px;
+    font-size: 0.8rem;
+  }
+}
+
 </style>
