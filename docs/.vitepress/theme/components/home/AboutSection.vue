@@ -9,8 +9,13 @@
         ACCH目前处于开源状态，欢迎志同道合的玩家一起维护
       </p>
       <a href="https://github.com/AssettoCorsaCNHub/AssettoCorsaCNHub.github.io" target="_blank" class="about-button">
-        Github >
+        我们的Github, 感谢你的小星星 >
       </a>
+
+      <a href="https://wiki.acmods.cn/" target="_blank" class="about-button">
+        ACN(友情社区) >
+      </a>
+
     </div>
   </section>
 </template>
@@ -67,6 +72,7 @@
 }
 
 .about-button {
+  margin-right: 25px;
   display: inline-flex;
   align-items: center;
   justify-content: center;

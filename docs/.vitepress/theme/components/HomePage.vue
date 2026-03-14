@@ -3,6 +3,7 @@
     <HeroSection />
     <CardSection />
     <AboutSection />
+    <WorksSection />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import HeroSection from './home/HeroSection.vue'
 import CardSection from './home/CardSection.vue'
 import AboutSection from './home/AboutSection.vue'
+import WorksSection from './home/WorksSection.vue'
 </script>
 
 <style>

@@ -45,3 +45,52 @@
   max-width: none !important;
   width: 100% !important;
 }
+
+/* 确保页面布局使用 flex 布局，使页脚固定在底部 */
+.Layout {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 30px);
+  padding-bottom: 30px;
+}
+
+.VPContent {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 文档页面主容器 */
+.VPDoc {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 64px);
+}
+
+.VPDoc .container {
+  flex: 1 0 auto;
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: calc(100vh - 64px - 350px);
+}
+
+/* 修复文档页面内容区域 */
+.VPDoc .content {
+  padding-bottom: 0 !important;
+}
+
+/* 页脚样式 - 确保在所有页面正确显示 */
+.site-footer {
+  position: relative;
+  z-index: 10;
+  width: 100% !important;
+  margin-left: 0 !important;
+  flex-shrink: 0;
+}
+
+/* 针对有侧边栏的文档页面 */
+.Layout:has(.VPDoc.has-aside) .site-footer {
+  width: 100% !important;
+  margin-left: 0 !important;
+}
