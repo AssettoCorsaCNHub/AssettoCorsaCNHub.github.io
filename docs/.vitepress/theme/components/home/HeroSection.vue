@@ -95,13 +95,13 @@
   .hero {
     width: calc(100% - 40px);
     margin: 20px;
-    margin-top: 80px;
+    margin-top: 25px;
     border-radius: 10px;
   }
 
   .hero-content {
     padding: 0 15px;
-    text-align: center;
+    text-align: left;
   }
 
   .hero-content h1 {
@@ -126,7 +126,7 @@
   .hero {
     width: calc(100% - 30px);
     margin: 15px;
-    margin-top: 60px;
+    margin-top: 20px;
     border-radius: 8px;
   }
 
@@ -159,8 +159,7 @@
   .hero {
     width: calc(100% - 20px);
     margin: 10px;
-    margin-top: 30px;
-    min-height: 300px;
+    margin-top: 10px;
     border-radius: 6px;
   }
 
