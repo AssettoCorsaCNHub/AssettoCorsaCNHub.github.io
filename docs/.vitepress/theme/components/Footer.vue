@@ -29,7 +29,7 @@
           <p class="footer-text">Released under the MIT License.</p>
         </div>
         <div class="footer-right">
-          <p class="footer-copyright">Copyright © 2026 ACCH AND WeiVi</p>
+          <p class="footer-copyright">Copyright © 2026 ACCH and <a href="https://space.bilibili.com/4028423" target="_blank" rel="noopener noreferrer" class="footer-link">WeiVi</a></p>
         </div>
       </div>
     </div>
@@ -157,6 +157,17 @@
   font-size: 0.8rem;
   color: var(--vp-c-text-3);
   margin: 0;
+}
+
+.footer-link {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--vp-c-brand-light);
+  text-decoration: underline;
 }
 
 /* 响应式 */
